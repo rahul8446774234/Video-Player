@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+main section{
+    width: 22%;
+    height: 50%;
+    background-image: linear-gradient(to right bottom,purple,orange);
+    border-radius: 5px;
+
+}
+main section h2{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+main section video{
+    width: 19rem;
+    height: 10rem;
+    object-fit: cover;
+}
+main section #videoDuration{
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+main section #videoVolume{
+    width: 25%;
+    margin-left: 2rem;
+}
+div{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    color: white;
+}
+i:active{
+    color: rgb(227, 64, 64);
+}
+
